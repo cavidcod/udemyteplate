@@ -1,10 +1,17 @@
 let slide1 = document.querySelector(".course-cards");
 let i = 0;
 
+let x = 0;
 
-function slide(){
-slide1.style.transform = "translateX(-750px)"
+
+function position() {
+    slide1.style.transform = `translateX(${x}px)`
 }
-function slide2(){
-    slide1.style.transform = "translateX(750px)"
+function slide() {
+    x = x - 750
+    position()
+}
+function slide2() {
+    x = x + 750
+    position()
 }
