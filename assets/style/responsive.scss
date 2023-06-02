@@ -1,0 +1,145 @@
+@media(max-width: 1765px) {
+    header .container .menu-and-input .u-business {
+        display: none;
+    }
+
+    section {
+        width: 80%;
+    }
+}
+
+@media(max-width: 1300px) {
+    header .container .menu-and-input {
+        width: 45%;
+
+        .teach {
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 1500px) {
+
+
+    main .section-five {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width: 1200px) {
+    main .section-eight {
+        width: 100%;
+
+        .content1 {
+            flex-direction: column;
+            align-items: center;
+
+            .left {
+                margin-bottom: 40px;
+
+            }
+
+            .right {
+                width: 100%;
+
+            }
+        }
+
+        .content2 {
+            flex-direction: column;
+            align-items: center;
+
+            .left {
+                margin-bottom: 40px;
+
+            }
+
+            .right {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+
+            }
+        }
+    }
+}
+
+@media(max-width: 990px) {
+    header .container {
+        .menu-icon {
+            display: block;
+        }
+
+        .menu-and-input {
+            display: none;
+        }
+
+        .buttons-list {
+            display: none;
+        }
+
+        .search-and-shopping-buttons {
+            display: flex;
+
+            .search-icon {
+                display: block;
+                margin-right: 25px;
+            }
+        }
+    }
+
+    main { .section-one {
+        .text-box {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: none;
+            background: none;
+
+        }
+
+        .search-area {
+            display: flex;
+        }
+
+
+    }
+
+    .section-two .courses-list {
+        display: none;
+    }
+
+    .section-six ul {
+        display: none;
+    }
+
+    .section-five {
+      
+           grid-template-columns: auto;
+        
+    }
+
+}
+}
+@media(max-width: 990px){
+    section{
+        width: 100%;
+        padding: 0;
+    }
+    main{
+        .section-tree{
+            padding: 0;
+            .left-right-button{
+                padding: 0;
+
+               
+            }
+            .content{
+                width: 90%;
+            }
+        }
+    }
+}

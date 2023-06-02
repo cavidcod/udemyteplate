@@ -1,0 +1,102 @@
+@media (max-width: 1765px) {
+  header .container .menu-and-input .u-business {
+    display: none;
+  }
+  section {
+    width: 80%;
+  }
+}
+@media (max-width: 1300px) {
+  header .container .menu-and-input {
+    width: 45%;
+  }
+  header .container .menu-and-input .teach {
+    display: none;
+  }
+}
+@media (max-width: 1500px) {
+  main .section-five {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 1200px) {
+  main .section-eight {
+    width: 100%;
+  }
+  main .section-eight .content1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-eight .content1 .left {
+    margin-bottom: 40px;
+  }
+  main .section-eight .content1 .right {
+    width: 100%;
+  }
+  main .section-eight .content2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-eight .content2 .left {
+    margin-bottom: 40px;
+  }
+  main .section-eight .content2 .right {
+    width: 100%;
+  }
+  main .section-eight .content2 .right img {
+    width: 100%;
+  }
+}
+@media (max-width: 990px) {
+  header .container .menu-icon {
+    display: block;
+  }
+  header .container .menu-and-input {
+    display: none;
+  }
+  header .container .buttons-list {
+    display: none;
+  }
+  header .container .search-and-shopping-buttons {
+    display: flex;
+  }
+  header .container .search-and-shopping-buttons .search-icon {
+    display: block;
+    margin-right: 25px;
+  }
+  main .section-one .text-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: none;
+    background: none;
+  }
+  main .section-one .search-area {
+    display: flex;
+  }
+  main .section-two .courses-list {
+    display: none;
+  }
+  main .section-six ul {
+    display: none;
+  }
+  main .section-five {
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 990px) {
+  section {
+    width: 100%;
+    padding: 0;
+  }
+  main .section-tree {
+    padding: 0;
+  }
+  main .section-tree .left-right-button {
+    padding: 0;
+  }
+  main .section-tree .content {
+    width: 90%;
+  }
+}/*# sourceMappingURL=responsive.css.map */
