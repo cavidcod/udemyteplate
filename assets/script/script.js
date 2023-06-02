@@ -1,5 +1,4 @@
 let slide1 = document.querySelector(".course-cards");
-let i = 0;
 
 let x = 0;
 
